@@ -7,15 +7,35 @@
 	<meta content="text/html; charset=utf-8" http-equiv="content-type">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.scuderiapacifica.org/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
-	<link rel="shortcut icon" href="https://www.scuderiapacifica.org/images/favicon.ico" type="image/x-icon">
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script>
-		$(function () {
+		$(function() {
 			$("#header").load("header.html");
-		})</script>
-	<title>Brogan</title>
+		})
+	</script>
+
+	<link rel="shortcut icon" href="https://www.scuderiapacifica.org/images/favicon.ico" type="image/x-icon">
+	<!-- Primary Meta Tags -->
+	<title>Brogan - Scuderia Pacifica</title>
+	<meta name="title" content="Scuderia Pacifica">
+	<meta name="description" content="Une Équipe de Course avec un objectif de ramener les jeunes au sport mécanique">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.scuderiapacifica.org">
+	<meta property="og:title" content="Scuderia Pacifica">
+	<meta property="og:description" content="Une Équipe de Course avec un objectif de ramener les jeunes au sport mécanique">
+	<meta property="og:image" content="https://www.scuderiapacifica.org/images/background.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://www.scuderiapacifica.org">
+	<meta property="twitter:title" content="Scuderia Pacifica">
+	<meta property="twitter:description" content="Une Équipe de Course avec un objectif de ramener les jeunes au sport mécanique">
+	<meta property="twitter:image" content="https://www.scuderiapacifica.org/images/background.png">
 
 	<!-- Style.css override -->
 	<style>
@@ -26,12 +46,9 @@
 </head>
 
 <body>
-	<header>
-		<div class="wrapper">
-			<div id="header"></div>
-		</div>
-		</div>
-		<div id="welTxt" class="welcome-text">
+	<div class="page">
+        <header id="header" class="header"></header>
+        <div class="text">
 			<h1>
 				Résumé de Mécanicien Brogan
 			</h1>
@@ -41,7 +58,7 @@
 				trouver sur un établi, ou à l'aéroport en train de travailler sur l'un des avions de mon père.
 			</b1>
 		</div>
-	</header>
+	</div>
 </body>
 
 </html>

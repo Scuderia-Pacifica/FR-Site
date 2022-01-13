@@ -7,11 +7,12 @@
 	<meta content="text/html; charset=utf-8" http-equiv="content-type">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.scuderiapacifica.org/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script>
-		$(function () {
+		$(function() {
 			$("#header").load("header.html");
 		})
 	</script>
@@ -43,10 +44,9 @@
 </head>
 
 <body>
-	<header>
-		<div class="wrapper">
-			<div id="header"></div>
-			<div id="welTxt" class="welcome-text">
+	<div class="page">
+        <header id="header" class="header"></header>
+        <div class="text">
 				<h1>
 					<span>
 						Scuderia Pacifica
@@ -63,7 +63,7 @@
 				<a href="contactez">Contactez-Nous</a>
 			</div>
 		</div>
-	</header>
+	</div>
 </body>
 
 </html>
